@@ -1,0 +1,6 @@
+{
+  "search": {
+    "validText": "hammer",
+    "invalidText": "invalidproduct12345"
+  }
+}
