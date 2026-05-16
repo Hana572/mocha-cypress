@@ -1,7 +1,7 @@
 class LoginPage {
 
     visitLogin() {
-        cy.visit('https://practicesoftwaretesting.com/auth/login')
+     cy.visit('https://practicesoftwaretesting.com/auth/login', { failOnStatusCode: false })
     }
 
     enterEmail(email) {

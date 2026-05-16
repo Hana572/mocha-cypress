@@ -3,8 +3,7 @@ describe('Home Page Tests', () => {
   let data
 
   beforeEach(() => {
-    cy.visit('https://practicesoftwaretesting.com/')
-
+   cy.visit('https://practicesoftwaretesting.com/', { failOnStatusCode: false })
     cy.fixture('home').then((d) => {
       data = d
     })

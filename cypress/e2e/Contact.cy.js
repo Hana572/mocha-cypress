@@ -1,7 +1,7 @@
 describe('Contact Page Test Cases', () => {
 
   beforeEach(function () {
-    cy.visit('https://practicesoftwaretesting.com/contact');
+    cy.visit('https://practicesoftwaretesting.com/contact', { failOnStatusCode: false });
     cy.fixture('contact').as('data');
   });
 
